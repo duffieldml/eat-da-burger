@@ -1,3 +1,16 @@
+### Schema
+
+CREATE DATABASE burgers_db;
+
+USE burgers_db;
+
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured boolean NOT NULL,
+	PRIMARY KEY (id)
+);
 
 --    * Create the `burgers_db`.
 --    * Switch to or use the `burgers_db`.
