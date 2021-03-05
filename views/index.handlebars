@@ -3,20 +3,20 @@
 <h2>Tasty burgers ready to be ate!</h2>
 
 <ul>
-  {{#each cats}}
-  {{#unless sleepy}}
-  {{> cats/cat-block sleep=true}}
-  {{/unless}}
+  {{#each burgers}}
+  {{!-- {{#unless devoured}} --}}
+  {{!-- {{> burgers/burger-block devoured=true}}  issues with this --}}
+  {{!-- {{/unless}} --}}
   {{/each}}
 </ul>
 
 <h2>Those who have been devoured. RIP fam.</h2>
 
 <ul>
-  {{#each cats}}
-  {{#if sleepy}}
-  {{> cats/cat-block sleep=false}}
-  {{/if}}
+  {{#each burgers}}
+  {{!-- {{#unless devoured}} --}}
+  {{!-- {{> burgers/burger-block devoured=false}} --}} issues with this
+  {{!-- {{/if}} --}}
   {{/each}}
 </ul>
 
