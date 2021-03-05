@@ -1,5 +1,6 @@
 ### Schema
 
+drop database burgers_db;
 CREATE DATABASE burgers_db;
 
 USE burgers_db;
