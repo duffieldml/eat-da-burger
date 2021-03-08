@@ -1,7 +1,7 @@
 -- Need to populate with at least 3 burgers
 
-INSERT INTO burgers (burger_name, devoured) VALUES ('Bacon Cheeseburger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Western Burger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Hambuger', false);
-INSERT INTO burgers (burger_name, devoured) VALUES ('Olive Burger', true);
+INSERT INTO burgers (burger_name) VALUES ('Bacon Cheeseburger');
+INSERT INTO burgers (burger_name) VALUES ('Western Burger');
+INSERT INTO burgers (burger_name) VALUES ('Hambuger');
+INSERT INTO burgers (burger_name) VALUES ('Olive Burger');
 
