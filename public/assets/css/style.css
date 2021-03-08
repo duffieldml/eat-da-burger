@@ -1,3 +1,42 @@
-h1{
+body {
+    background-color: rgb(228, 228, 192);
+}
+h1 {
     font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #5e84ee36;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+.newstyle,
+.burger {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.change-eat,
+.submit {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
